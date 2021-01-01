@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url('./Background.png') no-repeat;
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    height: 50vh;
+}
+
+.title {
+    width: 100%;
+    font-family: my-font;
+    font-size: 18vmin;
+    font-weight: bold;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ff0000;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+.subtitle {
+    width: 100%;
+    font-size: 3vmin;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: yellow;
+    text-shadow: 2px 2px 2px #ff0000;
+    font-family: cursive;
+}
+
+.content {
+    width: calc(100%);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift {
+    width: 35vmin;
+    height: 35vmin;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.img_1 {
+    background: url('./lx.jpg') no-repeat -14px -26px;
+    /* background-size: contain; */
+    height: 300px;
+    width: 139px;
+}
+
+.img_2 {
+    background: url('./lx.jpg') no-repeat -360px -26px;
+    /* background-size: contain; */
+    height: 300px;
+    width: 139px;
+}
+
+.text {
+    min-width: 300px;
+    font-family: cursive;
+}
+
+.opened {
+    opacity: 0.3;
+}
+
+.ui-dialog-titlebar {
+    background:#ffffff;
+    font-family: my-font;
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 2px 2px yellow;
+    text-align: center;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+@font-face {
+    font-family: 'my-font';
+    src: url('./cac_champagne.ttf') format('opentype');
+}

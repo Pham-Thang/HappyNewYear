@@ -28,15 +28,14 @@ body {
 
 .subtitle {
     width: 100%;
-    font-size: 3vmin;
+    font-size: 5vmin;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family: my-font-2;
     color: yellow;
     text-shadow: 2px 2px 2px #ff0000;
-    font-family: cursive;
 }
 
 .content {
@@ -70,7 +69,8 @@ body {
 
 .text {
     min-width: 300px;
-    font-family: cursive;
+    font-family: my-font-2;
+    font-size: 5vmin;
 }
 
 .opened {
@@ -93,4 +93,10 @@ body {
 @font-face {
     font-family: 'my-font';
     src: url('./cac_champagne.ttf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'my-font-2';
+    src: url('./UVF Ventography_Personal_Use_Only.ttf') format('opentype');
 }

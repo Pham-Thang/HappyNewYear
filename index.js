@@ -25,7 +25,6 @@ var listWishes = [
 var opened = false;
 var text = listWishes[Math.ceil(Math.random() * listWishes.length) - 1];
 var gifts = $('.gift').click(giftOnClick);
-text = "Chúc bạn sớm hết viêm màng túi và sớm có gấu!"
 $('.text').html(text);
 
 $("#dial").dialog({
